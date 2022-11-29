@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:id="@+id/group_1"
+
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/inboxes"
+        android:title="All Inboxes"
+        android:icon="@drawable/ic_allinboxes"
+        />
+</group>
+
+
+
+<group
+    android:id="@+id/group_2"
+    android:checkableBehavior="single"
+    >
+    <item
+        android:id="@+id/subtitle"
+        android:title="My Mails">
+        <menu>
+
+            <item android:id="@+id/inbox"
+                android:title="Inbox"
+                android:icon="@drawable/ic_inbox_2"
+            />
+
+            <item android:id="@+id/draft"
+                android:title="Draft"
+                android:icon="@drawable/ic_draft"
+            />
+            <item android:id="@+id/spam"
+                android:title="Spam"
+                android:icon="@drawable/ic_error"
+            />
+            <item android:id="@+id/mail"
+                android:title="Mail"
+                android:icon="@drawable/ic_mail" />
+        </menu>
+    </item>
+</group>
+
+
+    <group
+        android:id="@+id/settings"
+        android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/fav"
+            android:title="favorite"
+            android:icon="@drawable/ic_star"
+            />
+        <item
+            android:id="@+id/setting"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings" />
+
+    </group>
+
+
+
+
+
+</menu>
